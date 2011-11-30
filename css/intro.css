@@ -1,0 +1,96 @@
+@import url(reset.css);
+
+@charset "UTF-8";
+/* CSS Document */
+
+#intro {
+	margin: 0 auto;
+	width: 455px;
+}
+.clear {
+	clear: both;
+	height: 1px;
+	line-height: 1px;
+	overflow: hidden;
+}
+
+/* Text */
+ul, 
+p {
+	color: #A8A8A8;
+	font-size: 17px;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;;
+}
+
+/* Top */
+.top {
+	margin: 35px auto 85px;
+	height: 18px;
+}
+.top ul {
+	float: left;
+	margin: 0;
+	padding; 0;
+}
+.top ul li {
+	display: none;
+	float: left;
+	margin: 0 100px 0 0;
+	*zoom: 1;
+}
+.top ul li.last {
+	margin: 0;
+}
+
+/* Circle */
+.circle {
+	position: relative;
+	width: 251px;
+	margin: 0 auto;
+}
+.circle-full,
+.circle-middle,
+.circle-bottom,
+.circle-top {
+	display: none;
+}
+.circle-middle {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.circle-bottom {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.circle-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Bottom */
+.bottom {
+	margin-top: 80px;
+	text-align: center;
+}
+.bottom p {
+	margin-bottom: 30px;
+	display: none;
+}
+.bottom a {
+	display: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #03583C;
+	font-size: 12px;
+}
+.bottom a:link,
+.bottom a:visited {
+	text-decoration: none;
+}
+.bottom a:hover,
+.bottom a:active,
+.bottom a:focus {
+	text-decoration: underline;
+}

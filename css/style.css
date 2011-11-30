@@ -1,0 +1,91 @@
+@import url(reset.css);
+
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 100%;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+}
+a {
+	outline: none;
+}
+.clear {
+	clear: both;
+	height: 1px;
+	line-height: 1px;
+	overflow: hidden;
+}
+
+/* Main Body */
+.main {
+	width: 740px;
+	margin: 0 auto;
+}
+
+/* Header */
+.header {
+	margin: 15px 0 0 0;
+}
+.header img {
+	float: left;
+}
+.nav {
+	margin-left: 217px;
+}
+.nav ul {
+	float: left;
+	color: #999;
+	font-size: 11px;
+	margin-top: 10px;
+}
+.nav ul li {
+	float: left;
+	margin: 0;
+	*zoom: 1;
+	padding-right: 3px;
+}
+.nav ul li a {
+	color: #999;
+	font-size: 11px; 
+}
+.nav ul li a:hover {
+	text-decoration: none;
+}
+
+/* Image Rotator */
+.container {
+	position: relative;
+	height: 160px;
+	width: 160px;
+	float: left;
+	margin: 40px 60px 0 0;
+}
+.first {
+	margin-left: 70px;
+}
+.container ul li {
+	float: left;
+	position: absolute;
+	list-style: none;
+}
+.container ul li img {
+	padding: 4px;
+	background: #FFF;
+}
+.container ul li.show {
+	z-index: 500
+}
+
+/* Footer */
+.footer {
+	clear: both;
+}
+.footer p {
+	font-size: 9px;
+	padding-top: 9px;
+}
